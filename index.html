@@ -1,0 +1,369 @@
+<!-- src/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Wambugu - Personal Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    Brian Wambugu
+                </div>
+                
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link active" data-section="home">Home</a>
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                    <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                    <a href="#contact" class="btn-primary">Lets collaborate</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Full-Stack Developer</span>
+                    <br>
+                    <span>& Designer</span>
+                </h1>
+                <p class="hero-subtitle">
+                    I create Professional, responsive websites and user experiences that combine creativity with functionality.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="floating-element floating-1"></div>
+        <div class="floating-element floating-2"></div>
+        <div class="floating-element floating-3"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image fade-in">
+                    <div class="image-wrapper">
+                        <img src="assets/bigdawg.jpg" alt="Brian Wambugu" class="profile-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+                
+                <div class="about-content fade-in">
+                    <h2 class="section-title">
+                        About <span class="gradient-text">Me</span>
+                    </h2>
+                    <p class="about-text">
+                        I'm a passionate Full-Stack developer with 2+ years of experience creating digital experiences 
+                        that are not only visually appealing but also highly functional. I specialize in modern web 
+                        technologies and have a keen eye for design.
+                    </p>
+                    <p class="about-text">
+                        When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
+                        projects, or enjoying a good cup of coffee while sketching new interface ideas. I believe 
+                        in writing clean, maintainable code and creating user experiences that make a difference.
+                    </p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number gradient-text">10+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number gradient-text">2+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">
+                    My <span class="gradient-text">Skills</span>
+                </h2>
+                <p class="section-subtitle">
+                    Here are the technologies and tools I work with to bring ideas to life
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-item fade-in">
+                    <div class="skill-header">
+                        <span class="skill-name">HTML & CSS</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <div class="skill-header">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <div class="skill-header">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <div class="skill-header">
+                        <span class="skill-name">React</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <div class="skill-header">
+                        <span class="skill-name">TypeScript</span>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="60"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <div class="skill-header">
+                        <span class="skill-name">Node.js</span>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="60"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technology Icons -->
+            <div class="tech-icons fade-in">
+                <div class="tech-icon">
+                    <div class="icon">🌐</div>
+                    <div class="tech-name">HTML5</div>
+                </div>
+                <div class="tech-icon">
+                    <div class="icon">🎨</div>
+                    <div class="tech-name">CSS3</div>
+                </div>
+                <div class="tech-icon">
+                    <div class="icon">⚡</div>
+                    <div class="tech-name">JS</div>
+                </div>
+                <div class="tech-icon">
+                    <div class="icon">⚛️</div>
+                    <div class="tech-name">React</div>
+                </div>
+                <div class="tech-icon">
+                    <div class="icon">📘</div>
+                    <div class="tech-name">TypeScript</div>
+                </div>
+                <div class="tech-icon">
+                    <div class="icon">🟢</div>
+                    <div class="tech-name">Python</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">
+                    My <span class="gradient-text">Projects</span>
+                </h2>
+                <p class="section-subtitle">
+                    A collection of projects that showcase my skills and creativity
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/weather.jpeg" alt="E-Commerce Platform">
+                        <div class="project-overlay"></div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Website </h3>
+                        <p class="project-description">
+                            A modern wether webapp with responsive design and interactive features.
+                        </p>
+                        
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">React</span>
+                        </div>
+                        
+                        <div class="project-buttons">
+                            <a href="#" class="btn-primary">Live Demo</a>
+                            <a href="#" class="btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/portfolio.png" alt="Portfolio Website">
+                        <div class="project-overlay"></div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">
+                            A personal portfolio website showcasing web development skills and progress.
+                        </p>
+                        
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">TypeScript</span>
+                        </div>
+                        
+                        <div class="project-buttons">
+                            <a href="#home" class="btn-primary">Live Demo</a>
+                            <a href="#" class="btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/todo.jpg" alt="Task Management App">
+                        <div class="project-overlay"></div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">
+                            A productivity app developed using python for managing daily tasks with a clean interface.
+                        </p>
+                        
+                        <div class="project-tags">
+                            <span class="tag">python</span>
+                        </div>
+                        
+                        <div class="project-buttons">
+                            <a href="#home" class="btn-primary">Live Demo</a>
+                            <a href="#" class="btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">
+                        Let's <span class="gradient-text">Connect</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        I'm always open to discussing new opportunities and interesting projects. 
+                        Let's create something amazing together!
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <a href="mailto:brianwambugu022@gmail.com" class="contact-card fade-in">
+                        <div class="contact-icon">📧</div>
+                        <h3 class="contact-title">Email</h3>
+                        <p class="contact-value">brianwambugu022@gmail.com</p>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/brian-wambugu4" class="contact-card fade-in">
+                        <div class="contact-icon">💼</div>
+                        <h3 class="contact-title">LinkedIn</h3>
+                        <p class="contact-value">/in/brian-wambugu4</p>
+                    </a>
+                    
+                    <a href="https://github.com/" class="contact-card fade-in">
+                        <div class="contact-icon">🐙</div>
+                        <h3 class="contact-title">GitHub</h3>
+                        <p class="contact-value">/BrianWambugu</p>
+                    </a>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form fade-in">
+                    <form>
+                        <div class="form-row">
+                            <input type="text" placeholder="Your Name" class="form-input">
+                            <input type="email" placeholder="Your Email" class="form-input">
+                        </div>
+                        <input type="text" placeholder="Subject" class="form-input">
+                        <textarea rows="6" placeholder="Your Message" class="form-textarea"></textarea>
+                        <button type="submit" class="btn-primary form-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">             
+                <div class="social-links">
+                    <a href="https://www.github.com" class="social-link" title="GitHub">🐙</a>
+                    <a href="https://www.linkedin.com/in/brian-wambugu4" class="social-link" title="LinkedIn">💼</a>
+                    <a href="https://x.com/" class="social-link" title="Twitter">🐦</a>
+                    <a href="mailto:brianwambugu022@gmail.com" class="social-link" title="Email">📧</a>
+                </div>
+                
+                <div class="footer-text">
+                    <p>© 2025 Brian Wambugu. ❤️</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
